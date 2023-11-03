@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: aquamarine;
+}
+
+.container {
+    width: 300px;
+    height: 225px;
+    background: white;
+    border-radius: 5px;
+}
+
+#armenia-box {
+    /* border: 5px solid; */
+    position: relative;
+    top: 25px;
+    left: 50px;
+    width: 300px;
+    text-align: center;
+}
+
+#armenia-box > h3 {
+    font-size: 2rem;
+}
+
+#armenia > .up-color {
+    height: 75px;
+    background-color: #d82b38;
+}
+
+#armenia > .middle-color {
+    height: 75px;
+    background-color:#2525b8
+}
+
+#armenia > .down-color {
+    height: 75px;
+    background-color:#f8be3e
+}
+
+#austria-box {
+     /* border: 5px solid; */
+     position: absolute;
+     width: 300px;
+     top: 25px;
+     left: 425px;
+     text-align: center;
+}
+
+#austria-box > h3 {
+    font-size: 2rem;
+}
+
+#austria > .up-color {
+    background-color: #d82b2b;
+    height: 75px;
+}
+
+#austria > .middle-color {
+    height: 75px;
+    background: transparent;
+}
+
+#austria > .down-color {
+    background-color: #d82b2b;
+    height: 75px;
+}
+
+#belgium-box {
+    /* border: 5px solid; */
+    position: absolute;
+    top: 25px;
+    left: 825px;
+    text-align: center;
+}
+
+#belgium-box > h3 {
+    font-size: 2rem;
+}
+
+#belgium > .right-color {
+    background-color: black;
+    height: 225px;
+    width: 100px;
+}
+
+#belgium > .middle-color {
+    background-color: yellow;
+    height: 225px;
+    width: 100px;
+    position: absolute;
+    top: 36.5px;
+    left: 100px;
+}
+
+#belgium > .left-color {
+    background-color: red;
+    height: 225px;
+    width: 100px;
+    position: absolute;
+    top:37.5px;
+    left: 200px;
+}
+
+#denmark-box {
+    /* border: 5px solid; */
+    width: 300px;
+    position: absolute;
+    top: 25px;
+    left: 1225px;
+    text-align: center;
+}
+
+#denmark-box > h3 {
+    font-size: 2rem;
+}
+
+#denmark {
+    background-color: red;
+}
+
+#denmark .middle-color {
+    background-color: white;
+    position: absolute;
+    top: 130.5px;
+    height: 30px;
+    width: 300px;
+}
+
+#denmark .side-color {
+    background-color: white;
+    position: absolute;
+    width: 25px;
+    height: 225px;
+    left: 100px;
+}
+
+#greece-box {
+    /* border: 5px solid; */
+    width: 300px;
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    text-align: center;
+}
+
+#greece-box h3 {
+    font-size: 2rem;
+}
+
+#greece {
+    background-color: #232390;
+    height: 225px;
+}
+
+#greece > .line-1 {
+    background-color: white;
+    height: 22.5px;
+    width: 200px;
+    margin-left: 100px;
+    border-top: 25px solid #232390;
+}
+
+#greece > .line-2 {
+    background-color: white;
+    height: 22.5px;
+    width: 200px;
+    margin-left: 100px;
+    border-top: 25px solid #232390;
+}
+
+#greece > .line-3 {
+    background-color: white;
+    height: 22.5px;
+    border-top: 28.125px solid #232390;
+}
+
+#greece > .line-4 {
+    background-color: white;
+    height: 22.5px;
+    border-top: 28.125px solid #232390;
+}
+
+#greece > .cross-1 {
+    position: absolute;
+    top: 36.5px;
+    left: 38px;
+    background-color: white;
+    width: 22.5px;
+    height: 123.2px;
+    z-index: 1;
+}
+
+#greece > .cross-2 {
+    position: absolute;
+    top: 85.6px;
+    background-color: white;
+    width: 100px;
+    height: 25px;
+}
+
+#sweden-box {
+    /* border: 5px solid; */
+    width: 300px;
+    position: absolute;
+    left: 425px;
+    top: 350px;
+    text-align: center;
+}
+
+#sweden-box > h3 {
+    font-size: 2rem;
+}
+
+#sweden {
+    background-color: #3b62a8;
+}
+
+#sweden .middle-color {
+    background-color: yellow;
+    position: absolute;
+    top: 130.5px;
+    height: 30px;
+    width: 300px;
+}
+
+#sweden .side-color {
+    background-color: yellow;
+    position: absolute;
+    width: 25px;
+    height: 225px;
+    left: 100px;
+}
+
+#nigeria-box {
+    /* border: 5px solid; */
+    width: 300px;
+    position: absolute;
+    left: 825px;
+    top: 350px;
+    text-align: center;
+}
+
+#nigeria-box h3 {
+    font-size: 2rem;
+}
+
+#nigeria > .left-color {
+    width: 100px;
+    height: 225px;
+    background-color: green;
+}
+
+#nigeria > .right-color {
+    position: absolute;
+    top: 37.5px;
+    left: 200px;
+    width: 100px;
+    height: 225px;
+    background-color: green;
+}
+
+#czech-republic-box {
+    /* border: 5px solid; */
+    width: 300px;
+    position: absolute;
+    left: 1225px;
+    top: 350px;
+    text-align: center;
+}
+
+#czech-republic-box h3 {
+    font-size: 2rem;
+}
+
+#czech-republic > .up-color {
+    height: 112.5px;
+    background: transparent;
+}
+
+#czech-republic > .down-color {
+    height: 112.5px;
+    background-color: red;
+}
+
+#czech-republic > .tri-color {
+    background-color: transparent;
+    position: absolute;
+    top: 38px;
+    /* left: 147.5px; */
+    width: 0px;
+    height: 0px;
+    border-left: 147.5px solid #284568;
+    border-top: 112px solid transparent;
+    border-bottom: 112px solid transparent;
+}
+
+#georgia-box {
+    /* border: 5px solid; */
+    width: 300px;
+    position: absolute;
+    left: 50px;
+    top: 670px;
+    text-align: center;
+}
+
+#georgia-box h3 {
+    font-size: 2rem;
+}
+
+#georgia .middle-color {
+    width: 30px;
+    height: 225px;
+    background-color: red;
+    margin-left: 135px;
+}
+
+#georgia .center-color {
+    width: 300px;
+    height: 25px;
+    background-color: red;
+    position: absolute;
+    top: 131.5px;
+}
+
+#georgia .cross {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 63px;
+    background-color: white;
+}
+
+#georgia .cross .middle {
+    width: 15px;
+    height: 50px;
+    background-color: red;
+    border-left: 17.5px solid white;
+}
+
+#georgia .cross .center {
+    height: 15px;
+    width: 50px;
+    background: red;
+    position: absolute;
+    top: 17.5px;
+}
+
+#georgia .cross-1 {
+    left: 42.5px;
+}
+
+#georgia .cross-2 {
+    left: 210px;
+}
+
+#georgia .cross-3 {
+    top: 185px;
+    left: 42.5px;
+}
+
+#georgia .cross-4 {
+    top: 185px;
+    left: 210px;
+}
+
+#kuwait-box {
+   /*  border: 5px solid; */
+    width: 300px;
+    position: absolute;
+    left: 425px;
+    top: 670px;
+    text-align: center;
+}
+
+#kuwait-box h3 {
+    font-size: 2rem;
+}
+
+#kuwait .up-color {
+    height: 75px;
+    background-color: green;
+}
+
+#kuwait .middle-color {
+    height: 75px;
+    background-color: transparent;
+}
+
+#kuwait .down-color {
+    height: 75px;
+    background-color: red;
+}
+
+#kuwait .tri-color {
+    position: absolute;
+    top: 38px;
+    height: 75px;
+    width: 10px;
+    border-left: 100px solid;
+    border-top: 75px solid transparent;
+    /* border-right: 75px solid; */
+    border-bottom: 75px solid transparent;
+    background-color: transparent;
+}
+
+#UAE-box {
+   /*  border: 5px solid ; */
+    width: 300px;
+    position: absolute;
+    left: 825px;
+    top: 670px;
+    text-align: center;
+}
+
+#UAE-box h3 {
+    font-size: 2rem;
+}
+
+#UAE .up-color {
+    height: 75px;
+    background: green;
+}
+
+#UAE .middle-color {
+    height: 75px;
+    background: transparent;
+}
+
+#UAE .down-color {
+    height: 75px;
+    background: black;
+}
+
+#UAE .rec-color {
+    height: 225px;
+    background: red;
+    width: 70px;
+    position: absolute;
+    top: 38px;
+}
+
+#iceland-box {
+ /*    border: 5px solid ; */
+    width: 300px;
+    position: absolute;
+    left: 1225px;
+    top: 670px;
+    text-align: center;
+}
+
+#iceland-box h3 {
+    font-size: 2rem;
+}
+
+#iceland {
+    background: #2b3b78;
+}
+
+#iceland .center-color {
+    background-color: red;
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    top: 135.5px;
+    border: 10px solid white;
+    border-left: 0;
+    border-right: 0;
+}
+
+#iceland .middle-color {
+    background-color: red;
+    height: 225px;
+    width: 30px;
+    position: absolute;
+    top: 38px;
+    left: 125px;
+    border: 10px solid white;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#iceland .top-color {
+    background-color: red;
+    height: 225px;
+    width: 30px;
+    position: absolute;
+    top: 38px;
+    left: 135px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,9 @@
+div {
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border: 60px solid ;
+    border-top: 60px solid yellow;
+   
+}
+
